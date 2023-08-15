@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dulce Sabor</title>
+  <link rel="shortcut icon" href="./assets/img/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+
+</head>
+
+<body>
+
+  <header class="header">
+    <nav class="navbar">
+        <a href="#hero">
+          <img src="assets/img/logo.ico" alt="Logo Dulce Sabor" class="logo logo__redondo">
+        </a>
+      
+      <label for="toggle_menu"><i class="fa-solid fa-bars"></i></label>
+      <input type="checkbox" id="toggle_menu">
+        
+      <ul class="nav-links">
+        <li><a href="#hero">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#contacto">Contacto</a></li>   
+        <li><a href="./html/login.html"><img class="link-5"  src="./assets/img/usuario.png" alt=""></a></li>
+      </ul>  
+    </nav>  
+  </header>
+ 
+ <main>  
+  <section id="hero">
+   <div class="inicio__container">
+    <h1 class="inicio__container--titulo">Bienvenidos a <span>Dulce Sabor</span></h1>
+      <p class="inicio__container--parrafo medida__text">Delicias que despiertan los sentidos y deleitan el paladar. 
+      <p class="inicio__container--parrafo2 medida__text">Encontrarás una amplia variedad de tortas para cada ocasión</p> 
+      <p class="inicio__container--parrafo3 medida__text">Manos a la obra!! Descubrinos!!</p>
+      <a  class="inicio__container--btn" href="#contacto">Presupuesto</a>   
+    </div>
+  </section>
+
+  <section id="nosotros">
+    <h2 class="titulo">Nosotros</h2>
+    <div class="nostros__container">
+
+    <div  class="nostros__container--1"> </div>
+
+    <div  class="nostros__container--2">
+      <p class="container--2-p p1">Somos un rincón apasionado por la repostería, donde la creatividad se mezcla con la calidad para crear las tortas más exquisitas que hayas probado.</p>
+      <p class="container--2-p p2">Desde nuestras clásicas tortas de vainilla y chocolate, hasta las más sofisticadas y elegantes para celebraciones especiales.</p>
+      <p class="container--2-p p3">Nuestros maestros pasteleros, con años de experiencia, trabajan con esmero para ofrecerte un universo de sabores, colores y texturas.</p>  
+      <p class="container--2-p p4">En Dulce Sabor, la pasión por la repostería se traduce en cada bocado, y estamos emocionados de compartir esta experiencia contigo.</p>
+      <p class="container--2-p p5">Descubre las tentaciones que hemos preparado con cariño para ti.</p>
+      <p class="container--2-p p6">¡Esperamos que disfrutes de cada visita y que te sientas como en casa en nuestro dulce mundo!</p>        
+    </div>
+
+      <div  class="nostros__container--3"></div>
+    </div>  
+  </section>
+
+  <section id="productos">
+    <h2 class="titulo">Productos</h2>
+
+    <div  class="producto__container" >
+
+      <div class="producto__container--d1">
+        <img src="./assets/img/lemon.webp" alt="torta clasica">
+        <h3 class="producto__container--h3">Tortas Clásicas</h3>
+        <a href="./html/tortasClasicas.html#titulo__tortas"  class="producto__container--btn">Ver</a>
+      </div>
+      
+      <div class="producto__container--d2">
+        <img src="./assets/img/chocolate.webp" alt="torta chocolate">
+        <h3  class="producto__container--h3">Tortas de Chocolate</h3>
+        <a href="./html/tortasClasicas.html#titulo__tortasChoco"  class="producto__container--btn">Ver</a>
+      </div>
+
+      <div  class="producto__container--d3">
+        <img src="./assets/img/t2.webp" alt="torta personalizada">
+        <h3  class="producto__container--h3">Tortas Personalizadas</h3>
+        <a href="./html/tortasClasicas.html#titulo__tortasPerso" class="producto__container--btn">Ver</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2 class="titulo">Contacto</h2>
+    
+    <div class="contacto__container">
+      <div class="contacto__box-1">
+        <form class="formulario">
+          <div class="campo">
+              <label class="campo__label" for="nombre"><i class="fa-regular fa-user "></i> <i class="fa-solid fa-asterisk asteric"></i></label>
+              <input class="campo__field input__foco" type="text" placeholder="Tu Nombre" name="nombre" id="nombre" required>
+          </div>
+
+          <div class="campo">
+              <label class="campo__label" for="email"> <i class="fa-regular fa-envelope"></i> <i class="fa-solid fa-asterisk asteric"></i></label>
+              <input class="campo__field input__foco" type="email" placeholder="Tu E-mail" id="email" name="email" required>
+          </div>
+
+          <div class="campo">
+              <label class="campo__label" for="mensaje"><i class="fa-regular fa-message"></i>  <i class="fa-solid fa-asterisk asteric"></i></label>
+              <textarea class="campo__field campo__field--textarea input__foco" id="mensaje"  placeholder="Dejanos tu mensaje aquí" required></textarea>
+          </div>
+            
+          <div class="campo">
+            <P class="contact__Text"><i class="fa-solid fa-asterisk asteric"></i> Todos los campos son requeridos</P>
+          </div>  
+            <div class="campo">
+              <input type="submit" value="Enviar" class="boton">
+          </div>
+          
+      </form>
+      </div>
+  
+      <div class="contacto__box-2">
+        <p>123-456-7890</p>
+        <p>dulcesabor@gmail.com</p>
+        <p>calle 79 y 1, Mar del Tuyú</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!4v1690994232673!6m8!1m7!1sqKY9Na-5gIkPivJAlp2sRA!2m2!1d-36.58127529569423!2d-56.68847940727269!3f203.23735!4f0!5f0.7820865974627469" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      
+    
+      </div>
+
+  </section>
+
+
+  </section>
+ </main>
+
+  <footer> 
+    <h3>Redes Sociales:</h3>
+    <div class="footer-i">
+      <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://www.instagram.com" target="_blank">  <i class="fa-brands fa-instagram"></i></a>
+      <a href="https://api.whatsapp.com" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+    
+      
+    </div>
+    <p>
+      &copy Patricia Castillo - 2023. Todos los derechos reservados
+    </p>
+
+  </footer>
+
+</body>
+</html>
