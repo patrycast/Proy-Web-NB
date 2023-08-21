@@ -258,6 +258,10 @@
       text-align: center;
       margin: 4px 0;
     }
+    .inicio__container {
+      background: none;
+      background-color: #fedbac;
+    }
   
     .inicio__container img{
       max-width: 100%;
