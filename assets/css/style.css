@@ -29,6 +29,11 @@ html{
   scroll-padding-top: 60px;
   display: flex;
   justify-content: center;
+  scroll-snap-type: mandatory;
+}
+.scroll{
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
 }
 
 body {
@@ -389,6 +394,7 @@ body {
   flex-wrap: wrap;
   gap: 20px;
 }
+
 .container__info{
   width: 320px;
   height: 310px;
