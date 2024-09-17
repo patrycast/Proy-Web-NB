@@ -4,6 +4,6 @@
 - [x] CSS3 👍
 
 
-## Extra: Se agrega JavaScript: validaciones en login y registro 
+## Extra: Se agrega JavaScript: validaciones en login, registro y logout 
 
 - [x] JavaScript 👍
