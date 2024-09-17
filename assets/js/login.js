@@ -46,6 +46,7 @@ const isValidAccount= ()=>{
     }
 
     valid=true;
+    alert("Estas en linea");
     errorMessage.textContent="";
     return valid;
 }

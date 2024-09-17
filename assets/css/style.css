@@ -192,6 +192,9 @@ body {
 .overlay{
   display: none;
 }
+#logout-message{
+  display: none;
+}
 
   /* -------------seccion inicio ---------------------- */
 #hero{
