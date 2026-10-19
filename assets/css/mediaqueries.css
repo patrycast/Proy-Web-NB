@@ -367,6 +367,15 @@
     footer p{
       margin-top: 7px; 
     }
+
+    .footer-bottom{
+      flex-direction: column;
+      gap: 5px;
+      text-align: center;
+    }
+    .footer-bottom p{
+      text-align: center;
+    }
     
     .footer-i{
       gap:30px; 
